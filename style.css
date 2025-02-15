@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", serif;
+    background: linear-gradient(#E3FFF800 0%, #E3FFF861 38%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 130px;
+    
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    color: #89C5CC;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0%;
+    font-size: 18px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #aeaab3;
+    transition: color 0.3s;
+}
+
+nav ul li:hover {
+    color: #1a1a1b;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 3% auto;
+    
+}
+
+.texto {
+    width: 50%;
+}
+
+.destaque {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.exclusivos {
+    color: #89C5CC;
+}
+
+.descricao {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000000;
+    font-style: normal;
+    opacity: 60%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fimtexto {
+    font-weight: bold;
+}
+
+.container-botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 3% auto;
+    margin-top: -100px;
+
+}
+
+
+.botao-whatsapp {
+    display: inline-flex; 
+    align-items: center;
+    background-color: #69B99D;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.icone-whatsapp {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+}
+
+.botao-whatsapp:hover {
+    background-color: #1EBE5D;
+}
+
+footer {
+    text-align: center; /* Centraliza o conteúdo */
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    padding: 100px 0; /* Adiciona espaço interno acima e abaixo */
+    
+}
+
+.instagram {
+    font-weight: bold;
+}
